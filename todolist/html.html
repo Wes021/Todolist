@@ -10,27 +10,35 @@
 
 <body>
     <div class="container">
+        <div id="title">
+            <p>To do List</p>
+        </div>
         <div class="sec1">
-            <div id="title">
-                <p>To do List</p>
-            </div>
+            
 
             <div id="nofi">
-
+                <p id="alert"></p>
             </div>
 
             <div id="inputdiv">
                 <input type="text" placeholder="Add you're tasks" name="input" id="textt">
-                <img id="addB" onclick="" src="https://img.icons8.com/?size=100&id=102544&format=png&color=000000" alt="">
+                <img id="addB" onclick="AddTask()" src="https://img.icons8.com/?size=100&id=102544&format=png&color=000000" alt="">
+
             </div>
         </div>
 
-        
-
-        <div id="sec2">
+        <div class="alert">
 
         </div>
+
+        <div class="sec2">
+            <div id="TasksContainer">
+                
+            </div>
+        </div>
+
     </div>
+    <script src="js.js"></script>
 </body>
 
 </html>
